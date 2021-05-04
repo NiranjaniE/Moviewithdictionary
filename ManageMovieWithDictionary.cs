@@ -53,7 +53,6 @@ namespace collectionsproject
                 PrintMovie(movies[idx]);
             else
                 Console.WriteLine("no such movie");
-
         }
         public void DeleteMovie()
         {
@@ -68,7 +67,6 @@ namespace collectionsproject
             {
                 Console.WriteLine("oops something went wrong");
             }
-
         }
         public Movie UpdateMovieDuration(int id, double duration)
         {
@@ -90,7 +88,6 @@ namespace collectionsproject
             }
             else
                 Console.WriteLine("no such movie");
-
         }
         public void PrintAllMovies()
         {
@@ -241,10 +238,6 @@ namespace collectionsproject
                 }
             } while (choice != 8) ;
         }
-
-
-
-
         //static void Main(String[] args)
         //{
         // new ManageMovies().PrintMenu();
